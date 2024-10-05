@@ -25,3 +25,28 @@ class Person {
 
 let person = new Person('Eduard');
 person.greet();
+
+
+// === Nivell 2 ===
+// === Exercici 4 ===
+
+printNumbers0 = (array) => array.forEach(element => console.log(element));
+
+printNumbers1 = (array) => {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i]);
+      }
+};
+
+printNumbers2 = (array) => {
+    for (element of array){
+        console.log(element);
+    };
+};
+
+
+const array1 = [1, 2, 3, 4, 5];
+
+printNumbers0(array1);
+printNumbers1(array1);
+printNumbers2(array1);

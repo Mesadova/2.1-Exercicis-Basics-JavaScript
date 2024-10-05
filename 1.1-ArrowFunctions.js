@@ -50,3 +50,16 @@ const array1 = [1, 2, 3, 4, 5];
 printNumbers0(array1);
 printNumbers1(array1);
 printNumbers2(array1);
+
+
+// === Nivell 3 ===
+// === Exercici 5 ===
+
+printDelay = () => {
+    setTimeout(() => {
+        console.log("Delayed for 3 seconds.");
+      }, "3000");
+}
+
+
+printDelay();

@@ -53,3 +53,17 @@ array1 = [1,2,3,4];
 console.log('Exercici 4:');
 processarElements(array1, imprimir);
 
+
+
+// === Nivell 3 ===
+// === Exercici 5 ===
+
+processarCadena = (str, funct) => {
+  msg = str.toUpperCase();
+  funct(msg);
+}
+
+cadena = nomPropi;
+console.log('Exercici 5:');
+processarCadena(cadena, imprimir);
+

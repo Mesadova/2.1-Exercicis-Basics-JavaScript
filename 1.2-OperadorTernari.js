@@ -31,7 +31,21 @@ trobarMaxim = (a, b, c) => {
         : 'Error: No hi ha un nombre més gran que els altres dos.';
   }
 
-  console.log('Exercici 3:');
-  console.log(calcNumberSign(-3));
-  console.log(trobarMaxim(2,1,9));
+console.log('Exercici 3:');
+console.log(calcNumberSign(-3));
+console.log(trobarMaxim(2,1,9));
+
   
+// === Nivell 3 ===
+// === Exercici 4 ===
+
+const array1 = [2,3,4,5,6];
+
+parOImpar = (array) => {
+    array1.forEach((element) => {
+      console.log(element % 2 == 0 ? `The number ${element} is par` : `The number ${element} is impar.`);
+    });
+  };
+
+console.log('Exercici 4:');
+parOImpar(array1);

@@ -49,3 +49,20 @@ async function asyncCall() {
 
 asyncCall();
 
+
+// === Nivell 2 ===
+// === Exercici 5 ===
+
+async function asyncCall2() {
+    console.log('calling');
+    try {
+        const result = await promise1;
+        console.log('executed')
+        console.log('Exercici 5 result:', result);
+    } catch (error) {
+        console.error('Exercici 5 error:', error);
+    }
+  };
+  
+asyncCall2();
+

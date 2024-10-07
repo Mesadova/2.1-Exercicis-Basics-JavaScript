@@ -9,7 +9,7 @@ for (number of arrayNumbers) {
     arrayNew.push(number);
 }
 
-console.log('Exercici 1:')
+console.log('Exercici 1:');
 console.log(arrayNew);
 
 
@@ -24,7 +24,7 @@ for (number of arrayNumbers) {
     }
 }
 
-console.log('Exercici 2:')
+console.log('Exercici 2:');
 console.log(arrayNew);
 
 
@@ -34,7 +34,7 @@ arrayNumbers = [1, 10, 8, 11];
 
 arrayNumbers.find((element) => element > 10);
 
-console.log('Exercici 3:')
+console.log('Exercici 3:');
 console.log(arrayNumbers.find((element) => element > 10));
 
 
@@ -48,6 +48,18 @@ arrayNumbers.reduce(
 );
 
 
-console.log('Exercici 4:')
+console.log('Exercici 4:');
 console.log(arrayNumbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0,));
+
+
+// === Nivell 2 ===
+// === Exercici 5 ===
+
+let add = 0;
+arrayNumbers = [ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9];
+
+suma = (array) => {for (number of array) {if (number >= 10) { (add = add + (number * 2)) }} return add};
+
+console.log('Exercici 5:');
+console.log(suma(arrayNumbers));
 

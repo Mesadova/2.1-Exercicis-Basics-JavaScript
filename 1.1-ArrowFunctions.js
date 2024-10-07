@@ -3,6 +3,7 @@
 
 add = (a, b) => a + b;
 
+console.log('Exercici 1:');
 console.log(add(1,2));
 
 
@@ -10,6 +11,7 @@ console.log(add(1,2));
 
 randomNumber = () => Math.floor(Math.random() * 101);
 
+console.log('Exercici 2:');
 console.log(randomNumber());
 
 
@@ -24,6 +26,7 @@ class Person {
     }
 
 let person = new Person('Eduard');
+console.log('Exercici 3:');
 person.greet();
 
 
@@ -47,6 +50,7 @@ printNumbers2 = (array) => {
 
 const array1 = [1, 2, 3, 4, 5];
 
+console.log('Exercici 4:');
 printNumbers0(array1);
 printNumbers1(array1);
 printNumbers2(array1);
@@ -61,5 +65,5 @@ printDelay = () => {
       }, "3000");
 }
 
-
+console.log('Exercici 5:');
 printDelay();

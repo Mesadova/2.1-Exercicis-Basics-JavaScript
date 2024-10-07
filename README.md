@@ -1,4 +1,4 @@
-# Sprint 2.1. JavaScript I - Exercicis bàsics JavaScript - Nivell 1
+# Sprint 2.1. JavaScript I - Exercicis bàsics JavaScript
 
 ## 📄 Description
 

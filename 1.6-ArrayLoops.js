@@ -45,3 +45,9 @@ for (const num of numeros) {
     console.log(num);
 };
 
+
+// === Nivell 3 ===
+// === Exercici 6 ===
+
+console.log('Exercici 6:');
+for (const nom of noms) {console.log(nom, noms.indexOf(nom))};

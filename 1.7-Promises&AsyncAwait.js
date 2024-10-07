@@ -54,10 +54,10 @@ asyncCall();
 // === Exercici 5 ===
 
 async function asyncCall2() {
-    console.log('calling');
+    console.log('calling exercice 5...');
     try {
         const result = await promise1;
-        console.log('executed')
+        console.log('executed exercici 5...')
         console.log('Exercici 5 result:', result);
     } catch (error) {
         console.error('Exercici 5 error:', error);
@@ -66,3 +66,20 @@ async function asyncCall2() {
   
 asyncCall2();
 
+
+// === Nivell 3 ===
+// === Exercici 6 ===
+
+const promise2sec = new Promise(function(resolve, reject) {
+    setTimeout(() => {resolve('Ex. 6: 2 sec resolved.')}, 2000);
+  });
+  
+  const promise3sec = new Promise(function(resolve, reject) {
+    setTimeout(() => {resolve('Ex. 6: 3 sec resolved.')}, 3000);
+  });
+  
+  Promise.all([promise2sec, promise3sec]).then((values) => {
+    values.forEach(element => {console.log(element) });
+  });
+  
+  

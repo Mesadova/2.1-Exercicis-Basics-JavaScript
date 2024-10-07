@@ -49,3 +49,28 @@ console.log('Exercici 4:');
 console.log(x);
 console.log(y);
 console.log(rest);
+
+
+// === Nivell 3 ===
+// === Exercici 5 ===
+
+funct = (arg1, arg2, arg3) => {
+    console.log(arg1, arg2, arg3);
+};
+
+array1 = ['a', 2, 7];
+
+console.log('Exercici 5:');
+funct(...array1);
+
+
+// === Exercici 6 ===
+
+const objecte3 = { foo: "bar", x: 34 };
+const objecte4 = { bar: "foo", y: 11 };
+
+const mergedObj = { ...objecte3, ...objecte4 };
+
+console.log('Exercici 6:');
+console.log(mergedObj);
+

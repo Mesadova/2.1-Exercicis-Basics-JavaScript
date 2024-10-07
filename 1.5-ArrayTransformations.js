@@ -63,3 +63,18 @@ suma = (array) => {for (number of array) {if (number >= 10) { (add = add + (numb
 console.log('Exercici 5:');
 console.log(suma(arrayNumbers));
 
+
+// === Nivell 3 ===
+// === Exercici 6 ===
+
+array = [11, 12, 13, 14];
+console.log('Exercici 6:');
+
+if (array.some((element) => element > 10)) {
+    if (array.every((element) => element > 10)) {
+        console.log('Tots els valors són superiors a 10.');
+    } else {
+        console.log('Un valor és superior a 10.');
+    }
+};
+

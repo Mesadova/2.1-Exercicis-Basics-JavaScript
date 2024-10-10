@@ -42,7 +42,7 @@ console.log(trobarMaxim(2,1,9));
 const array1 = [2,3,4,5,6];
 
 parOImpar = (array) => {
-    array1.forEach((element) => {
+    array.forEach((element) => {
       console.log(element % 2 == 0 ? `The number ${element} is par` : `The number ${element} is impar.`);
     });
   };
